@@ -1,0 +1,9 @@
+/* Fase 11: profundidad, movimientos suaves y destellos al interactuar. */
+.comic-card, .cover-wrap img, .primary-button, .filter-chip, .icon-button, .detail-btn { transition:transform .28s ease, box-shadow .28s ease, border-color .25s ease, background-color .25s ease, color .25s ease; }
+.comic-card:hover { transform:translateY(-6px); box-shadow:0 24px 46px rgba(60,33,128,.18); border-color:color-mix(in srgb,var(--accent) 50%,var(--line)); }
+.comic-card:hover .cover-wrap img { transform:scale(1.065); }
+.primary-button:hover { transform:translateY(-2px); box-shadow:0 8px 28px color-mix(in srgb,var(--accent) 35%,transparent); }
+.primary-button:active, .detail-btn:active, .icon-button:active { transform:scale(.96); }
+.spark { position:fixed; z-index:100; pointer-events:none; width:8px; height:8px; border-radius:50%; background:#bf8fff; box-shadow:0 0 16px 6px #a866ff; animation:spark-flight .65s ease-out forwards; }
+@keyframes spark-flight { to { transform:translate(var(--tx),var(--ty)) scale(0); opacity:0; } }
+@media (prefers-reduced-motion:reduce) { *, *::before, *::after { scroll-behavior:auto!important; animation-duration:.01ms!important; transition-duration:.01ms!important; } }

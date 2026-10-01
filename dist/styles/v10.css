@@ -1,0 +1,24 @@
+/* Fase 10: favoritos, estantería y ficha con una muestra de lectura. */
+.card-actions { display:flex; gap:.5rem; margin-top:.85rem; align-items:center; }
+.detail-btn { flex:1; border:1px solid var(--line); border-radius:9px; background:var(--surface-alt); color:var(--text); padding:.55rem .6rem; font-size:.8rem; font-weight:800; cursor:pointer; }
+.detail-btn:hover { border-color:var(--accent); color:var(--accent); }
+.favorite-btn { width:2.3rem; height:2.3rem; border:1px solid var(--line); border-radius:9px; background:var(--surface-alt); color:var(--accent-2); font-size:1.4rem; line-height:1; cursor:pointer; }
+.favorite-btn[aria-pressed="true"] { background:var(--accent-2); border-color:var(--accent-2); color:#fff; }
+.shelf { margin-top:1rem; }
+.shelf p { color:var(--muted); font-size:.85rem; margin:.8rem 0 0; }
+.shelf ul { padding:0; list-style:none; margin:.8rem 0 0; }
+.shelf li + li { border-top:1px solid var(--line); }
+.shelf a { display:block; padding:.5rem 0; font-size:.84rem; text-decoration:none; font-weight:700; }
+.story-dialog { width:min(92vw,760px); max-height:min(90vh,760px); border:1px solid var(--line); border-radius:20px; background:var(--surface); color:var(--text); padding:1.2rem; box-shadow:0 40px 90px rgba(0,0,0,.4); }
+.story-dialog::backdrop { background:rgba(4,7,20,.75); backdrop-filter:blur(8px); }
+.dialog-close { position:absolute; right:1rem; top:1rem; width:2.2rem; height:2.2rem; border:0; border-radius:50%; background:var(--surface-alt); color:var(--text); font-size:1.5rem; cursor:pointer; }
+.dialog-layout { display:grid; grid-template-columns:230px 1fr; gap:1.5rem; align-items:start; }
+.dialog-layout > img { width:100%; aspect-ratio:3/4; object-fit:cover; border-radius:12px; }
+.dialog-copy { padding:1.4rem 1rem 1rem 0; }
+.dialog-copy h2 { margin-bottom:.8rem; }
+.dialog-episodes { color:var(--muted); font-weight:700; }
+.sample { margin-top:1rem; border-top:1px solid var(--line); padding-top:1rem; }
+.sample h3 { margin-bottom:.4rem; }
+.sample p { font-size:.9rem; }
+@media (max-width:600px) { .story-dialog { padding:.8rem; } .dialog-layout { grid-template-columns:95px 1fr; gap:.8rem; } .dialog-copy { padding:1.5rem .2rem .5rem 0; } .dialog-copy h2 { font-size:1.45rem; } .dialog-copy .primary-button { font-size:.8rem; } }
+@media (max-width:390px) { .detail-btn { font-size:.73rem; } .favorite-btn { width:2rem; height:2rem; } }

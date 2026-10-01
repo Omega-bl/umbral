@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="es" data-phase="12">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Umbral Comics: Catálogo ampliado, portada dinámica, colecciones y tus propias historias.">
+  <title>Prototipo N4 · Portal final · Umbral Comics</title>
+  <link rel="stylesheet" href="styles/v03.css">
+<link rel="stylesheet" href="styles/v04.css">
+<link rel="stylesheet" href="styles/v05.css">
+<link rel="stylesheet" href="styles/v06.css">
+<link rel="stylesheet" href="styles/v07.css">
+<link rel="stylesheet" href="styles/v08.css">
+<link rel="stylesheet" href="styles/v09.css">
+<link rel="stylesheet" href="styles/v10.css">
+<link rel="stylesheet" href="styles/v11.css">
+<link rel="stylesheet" href="styles/v12.css">
+</head>
+<body>
+<div class="portal-intro" data-portal-intro aria-hidden="true"><div class="portal-ring"></div><div class="portal-core"></div><span class="intro-word">UMBRAL</span></div><div class="portal-flash" data-portal-flash aria-hidden="true"></div>
+<nav class="phase-nav" aria-label="Navegación entre fases"><a href="index.html"></a><span class="phase-current"></span><div class="phase-arrows"><a href="v11.html"></a><a href="index.html"></a></div></nav>
+<div class="utility-bar"><div class="shell"><span><span class="utility-star">✦</span> CADA PÁGINA ABRE UN MUNDO</span><span>18 historias originales para descubrir</span></div></div>
+<header class="topbar" id="inicio"><div class="topbar-inner shell"><a class="brand" href="index.html" aria-label="Umbral Comics, todas las fases"><span class="brand-mark">✦</span><span>UMBRAL<small>COMICS</small></span></a><nav class="main-nav" aria-label="Principal"><a href="#inicio">Inicio</a><a href="#tendencias">Tendencias</a><a href="#generos">Géneros</a><a href="#catalogo">Catálogo</a><a href="#novedades">Novedades</a></nav><div class="header-actions"><label class="header-search"><span class="sr-only">Buscar historias</span><input type="search" data-search placeholder="Busca tu próxima historia" autocomplete="off"><span aria-hidden="true">⌕</span></label><button type="button" class="add-header-button" data-open-add><span aria-hidden="true">＋</span><span>Agregar</span></button><button type="button" class="icon-button theme-toggle" data-theme-toggle aria-label="Cambiar tema" title="Cambiar tema">☾</button><button type="button" class="icon-button replay-button" data-replay aria-label="Repetir entrada del portal" title="Repetir portal">✦</button></div></div></header>
+<div class="discovery-bar"><div class="shell"><strong>DESCUBRE</strong><a href="#catalogo" data-jump-genre="Fantasía">Fantasía</a><a href="#catalogo" data-jump-genre="Acción">Acción</a><a href="#catalogo" data-jump-genre="Romance">Romance</a><a href="#catalogo" data-jump-genre="Ciencia ficción">Ciencia ficción</a><a href="#catalogo">Todas las historias <span aria-hidden="true">↗</span></a></div></div>
+<main><div class="shell">
+  <section class="showcase-area" aria-label="Historias destacadas"><div class="showcase-grid"><div class="showcase" data-showcase><article class="showcase-slide is-active theme-violet" data-slide="0" aria-hidden="false">
+      <div class="showcase-ambient"></div><img class="showcase-image" src="assets/portal-hero.webp" alt="" fetchpriority="high">
+      <div class="showcase-copy"><p class="eyebrow"><span class="eyebrow-line"></span>PORTAL DE LA SEMANA</p><h1>Historias que te llevan a otro mundo.</h1><p>Un catálogo para encontrar esa serie que no querrás dejar a medias.</p><a class="showcase-cta" href="#catalogo">Explorar el catálogo <span aria-hidden="true">↗</span></a></div>
+      <span class="showcase-index">01 / 03</span>
+    </article><article class="showcase-slide  theme-rose" data-slide="1" aria-hidden="true">
+      <div class="showcase-ambient"></div><img class="showcase-image" src="assets/cover-1.webp" alt="" loading="lazy">
+      <div class="showcase-copy"><p class="eyebrow"><span class="eyebrow-line"></span>FANTASÍA · 24 EPISODIOS</p><h1>La corona de ceniza</h1><p>Una heredera, un reino escrito en páginas y un destino que puede cambiarse.</p><button type="button" class="showcase-cta" data-open-story="corona">Conocer la historia <span aria-hidden="true">↗</span></button></div>
+      <span class="showcase-index">02 / 03</span>
+    </article><article class="showcase-slide  theme-cyan" data-slide="2" aria-hidden="true">
+      <div class="showcase-ambient"></div><img class="showcase-image" src="assets/cover-2.webp" alt="" loading="lazy">
+      <div class="showcase-copy"><p class="eyebrow"><span class="eyebrow-line"></span>ACCIÓN · 38 EPISODIOS</p><h1>Código neón</h1><p>Un mensaje secreto atraviesa la ciudad que nunca se apaga.</p><button type="button" class="showcase-cta" data-open-story="neon">Conocer la historia <span aria-hidden="true">↗</span></button></div>
+      <span class="showcase-index">03 / 03</span>
+    </article><div class="showcase-controls"><div class="showcase-dots" role="group" aria-label="Elegir historia destacada"><button type="button" data-slide-to="0" aria-label="Mostrar destacado 1" aria-pressed="true"></button><button type="button" data-slide-to="1" aria-label="Mostrar destacado 2" aria-pressed="false"></button><button type="button" data-slide-to="2" aria-label="Mostrar destacado 3" aria-pressed="false"></button></div><div class="showcase-arrows"><button type="button" data-slide-prev aria-label="Destacado anterior">←</button><button type="button" data-slide-next aria-label="Destacado siguiente">→</button></div></div></div><div class="showcase-aside"><div class="aside-cover"><img src="assets/cover-11.webp" alt="Ilustración de El espíritu del zorro"><span>DESCUBRIMIENTO DEL DÍA</span></div><div class="aside-copy"><p>Fantasía · 34 episodios</p><h2>El espíritu del zorro</h2><button type="button" data-open-story="zorro">Conocer la historia <span aria-hidden="true">↗</span></button></div></div></div></section>
+  <div class="stat-ribbon"><span><b data-story-count>18</b><small>HISTORIAS</small></span><span><b>10</b><small>GÉNEROS</small></span><span><b>∞</b><small>MUNDOS POSIBLES</small></span><p>Encuentra la historia que no sabías que necesitabas.</p></div>
+  <section class="trending-section reveal" id="tendencias"><div class="section-heading"><div><p class="eyebrow">LO QUE MÁS ATRAPA</p><h2>En tendencia <span class="title-spark">✦</span></h2></div><a class="text-link" href="#catalogo">Ver el catálogo <span aria-hidden="true">↗</span></a></div><div class="trending-rail"><button type="button" class="trend-card" data-open-story="corona"><span class="trend-image"><img src="assets/cover-1.webp" alt="" loading="lazy"><b>01</b></span><span class="trend-name">La corona de ceniza</span><span class="trend-genre">Fantasía</span></button><button type="button" class="trend-card" data-open-story="neon"><span class="trend-image"><img src="assets/cover-2.webp" alt="" loading="lazy"><b>02</b></span><span class="trend-name">Código neón</span><span class="trend-genre">Acción</span></button><button type="button" class="trend-card" data-open-story="marea"><span class="trend-image"><img src="assets/cover-9.webp" alt="" loading="lazy"><b>03</b></span><span class="trend-name">Marea de otro mundo</span><span class="trend-genre">Ciencia ficción</span></button><button type="button" class="trend-card" data-open-story="nieve"><span class="trend-image"><img src="assets/cover-12.webp" alt="" loading="lazy"><b>04</b></span><span class="trend-name">La espada de nieve</span><span class="trend-genre">Acción</span></button><button type="button" class="trend-card" data-open-story="zorro"><span class="trend-image"><img src="assets/cover-11.webp" alt="" loading="lazy"><b>05</b></span><span class="trend-name">El espíritu del zorro</span><span class="trend-genre">Fantasía</span></button><button type="button" class="trend-card" data-open-story="vampira"><span class="trend-image"><img src="assets/cover-13.webp" alt="" loading="lazy"><b>06</b></span><span class="trend-name">La noche escarlata</span><span class="trend-genre">Terror</span></button></div></section>
+  <section class="genres-section reveal" id="generos"><div class="section-heading"><div><p class="eyebrow">ELIGE UNA PUERTA</p><h2>Explora por género</h2></div><p class="section-note">Cada mundo empieza con una elección.</p></div><div class="genre-grid"><button type="button" class="genre-tile genre-violet" data-jump-genre="Fantasía"><span><small>EXPLORAR</small><strong>Fantasía</strong><em>Mundos sin límites</em></span><img src="assets/cover-1.webp" alt="" loading="lazy"><span class="genre-arrow" aria-hidden="true">↗</span></button><button type="button" class="genre-tile genre-red" data-jump-genre="Acción"><span><small>EXPLORAR</small><strong>Acción</strong><em>Historias que aceleran</em></span><img src="assets/cover-2.webp" alt="" loading="lazy"><span class="genre-arrow" aria-hidden="true">↗</span></button><button type="button" class="genre-tile genre-pink" data-jump-genre="Romance"><span><small>EXPLORAR</small><strong>Romance</strong><em>Momentos para recordar</em></span><img src="assets/cover-4.webp" alt="" loading="lazy"><span class="genre-arrow" aria-hidden="true">↗</span></button><button type="button" class="genre-tile genre-blue" data-jump-genre="Misterio"><span><small>EXPLORAR</small><strong>Misterio</strong><em>Pistas entre sombras</em></span><img src="assets/cover-7.webp" alt="" loading="lazy"><span class="genre-arrow" aria-hidden="true">↗</span></button><button type="button" class="genre-tile genre-cyan" data-jump-genre="Ciencia ficción"><span><small>EXPLORAR</small><strong>Ciencia ficción</strong><em>Más allá del cielo</em></span><img src="assets/cover-9.webp" alt="" loading="lazy"><span class="genre-arrow" aria-hidden="true">↗</span></button><button type="button" class="genre-tile genre-gold" data-jump-genre="Aventura"><span><small>EXPLORAR</small><strong>Aventura</strong><em>Rutas por descubrir</em></span><img src="assets/cover-6.webp" alt="" loading="lazy"><span class="genre-arrow" aria-hidden="true">↗</span></button></div></section>
+  <div class="magazine-layout"><div class="magazine-main"><section class="catalog reveal" id="catalogo" aria-labelledby="catalog-title"><div class="section-heading catalog-heading"><div><p class="eyebrow">BIBLIOTECA DE UNIVERSOS</p><h2 id="catalog-title">Explora el catálogo</h2><p class="catalog-subtitle">Originales, descubrimientos y las historias que tú agregues.</p></div><span class="catalog-counter"><b data-visible-count>18</b> historias</span></div><div class="catalog-tools"><div class="filters" role="group" aria-label="Filtrar por género"><button type="button" class="filter-chip" data-filter="Todos" aria-pressed="true">Todos</button><button type="button" class="filter-chip" data-filter="Fantasía" aria-pressed="false">Fantasía</button><button type="button" class="filter-chip" data-filter="Acción" aria-pressed="false">Acción</button><button type="button" class="filter-chip" data-filter="Romance" aria-pressed="false">Romance</button><button type="button" class="filter-chip" data-filter="Misterio" aria-pressed="false">Misterio</button><button type="button" class="filter-chip" data-filter="Aventura" aria-pressed="false">Aventura</button><button type="button" class="filter-chip" data-filter="Comedia" aria-pressed="false">Comedia</button><button type="button" class="filter-chip" data-filter="Ciencia ficción" aria-pressed="false">Ciencia ficción</button><button type="button" class="filter-chip" data-filter="Drama" aria-pressed="false">Drama</button><button type="button" class="filter-chip" data-filter="Terror" aria-pressed="false">Terror</button></div><label class="sort-control">Ordenar <select data-sort aria-label="Ordenar historias"><option value="featured">Destacados</option><option value="az">Título A–Z</option><option value="episodes">Más episodios</option><option value="recent">Agregados recientes</option></select></label></div><div class="catalog-grid" data-catalog><article class="comic-card" id="historia-corona" data-story="corona" data-title="La corona de ceniza" data-genre="Fantasía" data-description="Una heredera descubre que su reino vive dentro de un libro que alguien está reescribiendo." data-episodes="24" data-cover="1">
+      <div class="cover-wrap">
+        <img src="assets/cover-1.webp" alt="Ilustración de La corona de ceniza" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Nuevo episodio</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Fantasía <span class="meta-dot">·</span> 24 episodios</p>
+        <h3>La corona de ceniza</h3>
+        <p class="blurb">Una heredera descubre que su reino vive dentro de un libro que alguien está reescribiendo.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="corona">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="corona" aria-label="Guardar La corona de ceniza en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-neon" data-story="neon" data-title="Código neón" data-genre="Acción" data-description="Un mensajero cruza una ciudad imposible para entregar un secreto capaz de apagarla." data-episodes="38" data-cover="2">
+      <div class="cover-wrap">
+        <img src="assets/cover-2.webp" alt="Ilustración de Código neón" width="500" height="500" loading="lazy">
+        <span class="cover-badge">En tendencia</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Acción <span class="meta-dot">·</span> 38 episodios</p>
+        <h3>Código neón</h3>
+        <p class="blurb">Un mensajero cruza una ciudad imposible para entregar un secreto capaz de apagarla.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="neon">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="neon" aria-label="Guardar Código neón en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-jardin" data-story="jardin" data-title="El jardín imposible" data-genre="Fantasía" data-description="Cada planta de una biblioteca olvidada conserva los recuerdos de una persona." data-episodes="17" data-cover="3">
+      <div class="cover-wrap">
+        <img src="assets/cover-3.webp" alt="Ilustración de El jardín imposible" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Original</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Fantasía <span class="meta-dot">·</span> 17 episodios</p>
+        <h3>El jardín imposible</h3>
+        <p class="blurb">Cada planta de una biblioteca olvidada conserva los recuerdos de una persona.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="jardin">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="jardin" aria-label="Guardar El jardín imposible en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-lluvia" data-story="lluvia" data-title="Bajo la misma lluvia" data-genre="Romance" data-description="Dos desconocidos comparten un paraguas y vuelven a encontrarse en todas las tormentas." data-episodes="31" data-cover="4">
+      <div class="cover-wrap">
+        <img src="assets/cover-4.webp" alt="Ilustración de Bajo la misma lluvia" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Popular</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Romance <span class="meta-dot">·</span> 31 episodios</p>
+        <h3>Bajo la misma lluvia</h3>
+        <p class="blurb">Dos desconocidos comparten un paraguas y vuelven a encontrarse en todas las tormentas.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="lluvia">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="lluvia" aria-label="Guardar Bajo la misma lluvia en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-eclipse" data-story="eclipse" data-title="Eclipse de medianoche" data-genre="Misterio" data-description="Cuando la luna se vuelve roja, los alumnos recuerdan una vida que nunca vivieron." data-episodes="20" data-cover="5">
+      <div class="cover-wrap">
+        <img src="assets/cover-5.webp" alt="Ilustración de Eclipse de medianoche" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Nuevo episodio</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Misterio <span class="meta-dot">·</span> 20 episodios</p>
+        <h3>Eclipse de medianoche</h3>
+        <p class="blurb">Cuando la luna se vuelve roja, los alumnos recuerdan una vida que nunca vivieron.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="eclipse">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="eclipse" aria-label="Guardar Eclipse de medianoche en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-expreso" data-story="expreso" data-title="Expreso de las estrellas" data-genre="Aventura" data-description="Un tren atraviesa constelaciones y cada estación ofrece una segunda oportunidad." data-episodes="15" data-cover="6">
+      <div class="cover-wrap">
+        <img src="assets/cover-6.webp" alt="Ilustración de Expreso de las estrellas" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Original</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Aventura <span class="meta-dot">·</span> 15 episodios</p>
+        <h3>Expreso de las estrellas</h3>
+        <p class="blurb">Un tren atraviesa constelaciones y cada estación ofrece una segunda oportunidad.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="expreso">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="expreso" aria-label="Guardar Expreso de las estrellas en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-farol" data-story="farol" data-title="El caso del farol rojo" data-genre="Misterio" data-description="Una detective sigue pistas que solo aparecen reflejadas en la lluvia de medianoche." data-episodes="12" data-cover="7">
+      <div class="cover-wrap">
+        <img src="assets/cover-7.webp" alt="Ilustración de El caso del farol rojo" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Nuevo</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Misterio <span class="meta-dot">·</span> 12 episodios</p>
+        <h3>El caso del farol rojo</h3>
+        <p class="blurb">Una detective sigue pistas que solo aparecen reflejadas en la lluvia de medianoche.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="farol">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="farol" aria-label="Guardar El caso del farol rojo en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-chispas" data-story="chispas" data-title="Chispas y tornillos" data-genre="Comedia" data-description="Una inventora y su robot convierten los problemas cotidianos en aventuras absurdas." data-episodes="22" data-cover="8">
+      <div class="cover-wrap">
+        <img src="assets/cover-8.webp" alt="Ilustración de Chispas y tornillos" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Para sonreír</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Comedia <span class="meta-dot">·</span> 22 episodios</p>
+        <h3>Chispas y tornillos</h3>
+        <p class="blurb">Una inventora y su robot convierten los problemas cotidianos en aventuras absurdas.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="chispas">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="chispas" aria-label="Guardar Chispas y tornillos en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-marea" data-story="marea" data-title="Marea de otro mundo" data-genre="Ciencia ficción" data-description="Una astronauta escucha una señal bajo el océano de un planeta sin mapas." data-episodes="19" data-cover="9">
+      <div class="cover-wrap">
+        <img src="assets/cover-9.webp" alt="Ilustración de Marea de otro mundo" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Nuevo episodio</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Ciencia ficción <span class="meta-dot">·</span> 19 episodios</p>
+        <h3>Marea de otro mundo</h3>
+        <p class="blurb">Una astronauta escucha una señal bajo el océano de un planeta sin mapas.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="marea">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="marea" aria-label="Guardar Marea de otro mundo en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-ultima" data-story="ultima" data-title="La última melodía" data-genre="Drama" data-description="Una violinista recibe una partitura que cambia cada vez que recuerda a alguien." data-episodes="28" data-cover="10">
+      <div class="cover-wrap">
+        <img src="assets/cover-10.webp" alt="Ilustración de La última melodía" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Original</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Drama <span class="meta-dot">·</span> 28 episodios</p>
+        <h3>La última melodía</h3>
+        <p class="blurb">Una violinista recibe una partitura que cambia cada vez que recuerda a alguien.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="ultima">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="ultima" aria-label="Guardar La última melodía en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-zorro" data-story="zorro" data-title="El espíritu del zorro" data-genre="Fantasía" data-description="En un bosque de faroles, una niña protege el secreto de un antiguo guardián." data-episodes="34" data-cover="11">
+      <div class="cover-wrap">
+        <img src="assets/cover-11.webp" alt="Ilustración de El espíritu del zorro" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Popular</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Fantasía <span class="meta-dot">·</span> 34 episodios</p>
+        <h3>El espíritu del zorro</h3>
+        <p class="blurb">En un bosque de faroles, una niña protege el secreto de un antiguo guardián.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="zorro">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="zorro" aria-label="Guardar El espíritu del zorro en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-nieve" data-story="nieve" data-title="La espada de nieve" data-genre="Acción" data-description="Una guerrera cruza la montaña para recuperar el nombre que le arrebataron." data-episodes="26" data-cover="12">
+      <div class="cover-wrap">
+        <img src="assets/cover-12.webp" alt="Ilustración de La espada de nieve" width="500" height="500" loading="lazy">
+        <span class="cover-badge">En tendencia</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Acción <span class="meta-dot">·</span> 26 episodios</p>
+        <h3>La espada de nieve</h3>
+        <p class="blurb">Una guerrera cruza la montaña para recuperar el nombre que le arrebataron.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="nieve">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="nieve" aria-label="Guardar La espada de nieve en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-vampira" data-story="vampira" data-title="La noche escarlata" data-genre="Terror" data-description="Una heredera inmortal vuelve a la catedral donde comenzó una promesa imposible." data-episodes="14" data-cover="13">
+      <div class="cover-wrap">
+        <img src="assets/cover-13.webp" alt="Ilustración de La noche escarlata" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Nuevo</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Terror <span class="meta-dot">·</span> 14 episodios</p>
+        <h3>La noche escarlata</h3>
+        <p class="blurb">Una heredera inmortal vuelve a la catedral donde comenzó una promesa imposible.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="vampira">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="vampira" aria-label="Guardar La noche escarlata en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-titan" data-story="titan" data-title="Órbita titán" data-genre="Ciencia ficción" data-description="Un piloto encuentra la señal de una civilización al otro lado de una lluvia de meteoros." data-episodes="27" data-cover="14">
+      <div class="cover-wrap">
+        <img src="assets/cover-14.webp" alt="Ilustración de Órbita titán" width="500" height="500" loading="lazy">
+        <span class="cover-badge">En tendencia</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Ciencia ficción <span class="meta-dot">·</span> 27 episodios</p>
+        <h3>Órbita titán</h3>
+        <p class="blurb">Un piloto encuentra la señal de una civilización al otro lado de una lluvia de meteoros.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="titan">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="titan" aria-label="Guardar Órbita titán en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-cafe" data-story="cafe" data-title="Café de lo imposible" data-genre="Comedia" data-description="Dos amigos sirven café a criaturas mágicas y cada pedido termina en desastre." data-episodes="18" data-cover="15">
+      <div class="cover-wrap">
+        <img src="assets/cover-15.webp" alt="Ilustración de Café de lo imposible" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Para sonreír</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Comedia <span class="meta-dot">·</span> 18 episodios</p>
+        <h3>Café de lo imposible</h3>
+        <p class="blurb">Dos amigos sirven café a criaturas mágicas y cada pedido termina en desastre.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="cafe">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="cafe" aria-label="Guardar Café de lo imposible en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-dunas" data-story="dunas" data-title="Las ruinas del viento" data-genre="Aventura" data-description="Una arqueóloga sigue un mapa hacia ciudades que flotan sobre el desierto." data-episodes="23" data-cover="16">
+      <div class="cover-wrap">
+        <img src="assets/cover-16.webp" alt="Ilustración de Las ruinas del viento" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Original</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Aventura <span class="meta-dot">·</span> 23 episodios</p>
+        <h3>Las ruinas del viento</h3>
+        <p class="blurb">Una arqueóloga sigue un mapa hacia ciudades que flotan sobre el desierto.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="dunas">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="dunas" aria-label="Guardar Las ruinas del viento en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-promesa" data-story="promesa" data-title="Promesa de primavera" data-genre="Romance" data-description="Dos estudiantes se reencuentran cada primavera bajo el mismo árbol de cerezos." data-episodes="32" data-cover="17">
+      <div class="cover-wrap">
+        <img src="assets/cover-17.webp" alt="Ilustración de Promesa de primavera" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Popular</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Romance <span class="meta-dot">·</span> 32 episodios</p>
+        <h3>Promesa de primavera</h3>
+        <p class="blurb">Dos estudiantes se reencuentran cada primavera bajo el mismo árbol de cerezos.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="promesa">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="promesa" aria-label="Guardar Promesa de primavera en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article><article class="comic-card" id="historia-marina" data-story="marina" data-title="La reina de las mareas" data-genre="Fantasía" data-description="Una princesa del océano desafía a las estrellas para salvar a su pueblo." data-episodes="21" data-cover="18">
+      <div class="cover-wrap">
+        <img src="assets/cover-18.webp" alt="Ilustración de La reina de las mareas" width="500" height="500" loading="lazy">
+        <span class="cover-badge">Nuevo episodio</span>
+      </div>
+      <div class="card-body">
+        <p class="genre">Fantasía <span class="meta-dot">·</span> 21 episodios</p>
+        <h3>La reina de las mareas</h3>
+        <p class="blurb">Una princesa del océano desafía a las estrellas para salvar a su pueblo.</p>
+        <div class="card-actions">
+          <button type="button" class="detail-btn" data-detail="marina">Ver ficha</button>
+          <button type="button" class="favorite-btn" data-favorite="marina" aria-label="Guardar La reina de las mareas en favoritos" aria-pressed="false" title="Guardar en favoritos">♡</button>
+        </div>
+      </div>
+    </article></div><p class="empty-state" data-empty hidden>No encontramos historias con esa búsqueda. Prueba otro título o género.</p></section>
+  <section class="creator-banner reveal"><div><p class="eyebrow">TU ESTANTERÍA, TUS REGLAS</p><h2>¿Tienes una historia favorita que falta aquí?</h2><p>Agrega su portada, género, sinopsis y enlace de lectura. Aparecerá en tu catálogo.</p><button type="button" class="primary-button" data-open-add>Agregar una historia <span aria-hidden="true">＋</span></button></div><div class="banner-art" aria-hidden="true"><span>✦</span><span>✧</span><span>✦</span></div></section>
+  <section class="editorial-section reveal" id="colecciones"><div class="section-heading"><div><p class="eyebrow">SELECCIÓN UMBRAL</p><h2>Joyas para descubrir</h2></div></div><div class="editorial-grid"><button type="button" class="editorial-card" data-open-story="jardin"><img src="assets/cover-3.webp" alt="" loading="lazy"><span class="editorial-content"><small>SELECCIÓN UMBRAL · 01</small><strong>El jardín imposible</strong><span>Fantasía / 17 episodios</span></span></button><button type="button" class="editorial-card" data-open-story="ultima"><img src="assets/cover-10.webp" alt="" loading="lazy"><span class="editorial-content"><small>SELECCIÓN UMBRAL · 02</small><strong>La última melodía</strong><span>Drama / 28 episodios</span></span></button><button type="button" class="editorial-card" data-open-story="marina"><img src="assets/cover-18.webp" alt="" loading="lazy"><span class="editorial-content"><small>SELECCIÓN UMBRAL · 03</small><strong>La reina de las mareas</strong><span>Fantasía / 21 episodios</span></span></button></div></section>
+  <section class="updates reveal" id="novedades"><div class="section-heading"><div><p class="eyebrow">NO PIERDAS EL HILO</p><h2>Últimas actualizaciones</h2></div></div><div class="update-list"><a href="#historia-corona"><span class="update-day">MAR</span><img src="assets/cover-1.webp" alt="" loading="lazy"><span><strong>La corona de ceniza</strong><small>Fantasía · Nuevo capítulo 24</small></span><span aria-hidden="true">↗</span></a><a href="#historia-neon"><span class="update-day">JUE</span><img src="assets/cover-2.webp" alt="" loading="lazy"><span><strong>Código neón</strong><small>Acción · Nuevo capítulo 38</small></span><span aria-hidden="true">↗</span></a><a href="#historia-jardin"><span class="update-day">VIE</span><img src="assets/cover-3.webp" alt="" loading="lazy"><span><strong>El jardín imposible</strong><small>Fantasía · Nuevo capítulo 17</small></span><span aria-hidden="true">↗</span></a><a href="#historia-lluvia"><span class="update-day">MIÉ</span><img src="assets/cover-4.webp" alt="" loading="lazy"><span><strong>Bajo la misma lluvia</strong><small>Romance · Nuevo capítulo 31</small></span><span aria-hidden="true">↗</span></a><a href="#historia-eclipse"><span class="update-day">SÁB</span><img src="assets/cover-5.webp" alt="" loading="lazy"><span><strong>Eclipse de medianoche</strong><small>Misterio · Nuevo capítulo 20</small></span><span aria-hidden="true">↗</span></a><a href="#historia-expreso"><span class="update-day">DOM</span><img src="assets/cover-6.webp" alt="" loading="lazy"><span><strong>Expreso de las estrellas</strong><small>Aventura · Nuevo capítulo 15</small></span><span aria-hidden="true">↗</span></a></div></section></div>
+  <aside class="magazine-sidebar" aria-label="Ranking y estantería"><section class="ranking" id="ranking"><div class="side-heading"><div><p class="eyebrow">LOS MÁS LEÍDOS</p><h2>Top de la semana</h2></div><span>↗</span></div><ol><li><a href="#historia-corona"><b>01</b><img src="assets/cover-1.webp" alt="" loading="lazy"><span><strong>La corona de ceniza</strong><small>Fantasía · 24 episodios</small></span><span class="rank-rise" aria-hidden="true">↗</span></a></li><li><a href="#historia-neon"><b>02</b><img src="assets/cover-2.webp" alt="" loading="lazy"><span><strong>Código neón</strong><small>Acción · 38 episodios</small></span><span class="rank-rise" aria-hidden="true">↗</span></a></li><li><a href="#historia-nieve"><b>03</b><img src="assets/cover-12.webp" alt="" loading="lazy"><span><strong>La espada de nieve</strong><small>Acción · 26 episodios</small></span><span class="rank-rise" aria-hidden="true">↗</span></a></li><li><a href="#historia-marea"><b>04</b><img src="assets/cover-9.webp" alt="" loading="lazy"><span><strong>Marea de otro mundo</strong><small>Ciencia ficción · 19 episodios</small></span><span class="rank-rise" aria-hidden="true">↗</span></a></li><li><a href="#historia-lluvia"><b>05</b><img src="assets/cover-4.webp" alt="" loading="lazy"><span><strong>Bajo la misma lluvia</strong><small>Romance · 31 episodios</small></span><span class="rank-rise" aria-hidden="true">↗</span></a></li></ol></section><section class="shelf" id="estanteria"><div class="side-heading"><div><p class="eyebrow">GUARDADAS POR TI</p><h2>Tu estantería</h2></div><span>♡</span></div><p data-shelf-empty>Guarda una historia con el corazón y aparecerá aquí.</p><ul data-shelf-list></ul></section><section class="personal-box"><span class="personal-icon">✦</span><p class="eyebrow">TU PROPIA COLECCIÓN</p><h2>Haz espacio para tus mundos favoritos.</h2><p>Agrega historias y llévatelas en un archivo para conservarlas.</p><button type="button" data-open-add>Gestionar mis historias <span aria-hidden="true">↗</span></button></section></aside></div>
+  <section class="closing-panel reveal"><img src="assets/portal-hero.webp" alt="" loading="lazy"><div><p class="eyebrow">EL SIGUIENTE CAPÍTULO TE ESPERA</p><h2>Siempre hay otra puerta por abrir.</h2><a class="primary-button" href="#catalogo">Seguir explorando</a></div></section>
+</div></main>
+<footer class="footer final-footer"><div class="shell"><div class="footer-brand"><strong>✦ UMBRAL <span>COMICS</span></strong><p>Historias para leer, descubrir y guardar.</p></div><div><h3>EXPLORAR</h3><a href="#tendencias">Tendencias</a><a href="#generos">Géneros</a><a href="#catalogo">Catálogo</a></div><div><h3>PROYECTO</h3><a href="index.html"></a><a href="v01.html">HTML inicial</a><button type="button" data-replay>Repetir portal</button></div><p class="footer-note">Historias e ilustraciones de demostración. Las historias que tú agregues se guardan en este navegador; puedes exportarlas desde «Agregar».</p></div><div class="footer-bottom shell"><span>© Umbral Comics · Proyecto de práctica</span><span>Hecho para explorar historias ✦</span></div></footer>
+<dialog class="story-dialog" id="storyDialog" aria-labelledby="dialogTitle"><button type="button" class="dialog-close" data-close aria-label="Cerrar ficha">×</button><div class="dialog-layout"><img data-dialog-cover src="assets/cover-1.webp" alt=""><div class="dialog-copy"><p class="eyebrow" data-dialog-genre></p><h2 id="dialogTitle" data-dialog-title></h2><p data-dialog-description></p><p class="dialog-episodes" data-dialog-episodes></p><a class="external-story-link" data-dialog-link href="#" target="_blank" rel="noopener noreferrer" hidden>Leer en el sitio original ↗</a><button type="button" class="primary-button" data-read-sample>Leer muestra</button><div class="sample" data-sample hidden><h3>Un primer vistazo</h3><p data-sample-text></p><p data-demo-note>Esta es una muestra original del proyecto. La historia completa aún no está publicada.</p></div></div></div></dialog>
+<dialog class="add-dialog" id="addStoryDialog" aria-labelledby="addStoryTitle"><div class="add-dialog-head"><div><p class="eyebrow">TU COLECCIÓN PERSONAL</p><h2 id="addStoryTitle">Agregar una historia</h2><p>Las historias se guardan en este navegador. Exporta un archivo para conservarlas o llevarlas a otro dispositivo.</p></div><button type="button" class="dialog-close" data-close-add aria-label="Cerrar formulario">×</button></div><form id="addStoryForm"><div class="form-grid"><label>Título <input name="title" maxlength="80" required placeholder="Ej. Mi manga favorito"></label><label>Autor o creador <input name="author" maxlength="80" placeholder="Nombre del creador"></label><label>Formato <select name="format"><option>Webtoon</option><option>Manga</option><option>Cómic</option><option>Novela gráfica</option><option>Historia</option></select></label><label>Género <select name="genre"><option>Fantasía</option><option>Acción</option><option>Romance</option><option>Misterio</option><option>Aventura</option><option>Comedia</option><option>Ciencia ficción</option><option>Drama</option><option>Terror</option></select></label><label class="full-field">Sinopsis <textarea name="description" maxlength="350" rows="3" required placeholder="¿De qué trata esta historia?"></textarea></label><label>Episodios o capítulos <input name="episodes" type="number" min="0" max="9999" value="1" required></label><label>Enlace para leer <input name="url" type="url" placeholder="https://..."></label><label class="full-field">Portada desde tu dispositivo <input name="coverFile" type="file" accept="image/png,image/jpeg,image/webp,image/avif"></label><label class="full-field">O enlace de portada <input name="coverUrl" type="url" placeholder="https://.../portada.jpg"></label><label class="full-field">Fragmento de muestra (opcional) <textarea name="sample" maxlength="1600" rows="3" placeholder="Un párrafo para mostrar al abrir la ficha"></textarea></label></div><p class="form-error" data-form-error role="status" aria-live="polite"></p><div class="form-actions"><button type="button" class="secondary-button" data-close-add>Cancelar</button><button type="submit" class="primary-button">Guardar historia</button></div></form><div class="collection-actions"><div><strong>Respaldo de mis historias</strong><p>Exporta tus historias o importa un archivo creado aquí.</p></div><div><button type="button" data-export>Exportar JSON</button><label class="import-label">Importar JSON <input type="file" data-import accept="application/json,.json"></label></div></div></dialog>
+<script src="scripts/theme.js" defer></script><script src="scripts/catalog.js" defer></script><script src="scripts/effects.js" defer></script><script src="scripts/portal.js" defer></script><script src="scripts/final.js" defer></script>
+</body>
+</html>

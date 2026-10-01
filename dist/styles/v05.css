@@ -1,0 +1,15 @@
+/* Fase 05: variables de una identidad violeta, azul noche y coral. */
+:root { --bg:#f7f8fd; --surface:#fff; --surface-alt:#eef0fa; --text:#17182b; --muted:#5b6077; --line:#dfe2ef; --accent:#7b42dd; --accent-2:#ec578e; --shadow:0 14px 35px rgba(46,37,91,.09); }
+body { background:var(--bg); color:var(--text); }
+.phase-nav { background:#17182b; color:#f5f3ff; }
+.phase-nav a { color:#d5c7ff; text-decoration:none; }
+.phase-nav a:hover, .main-nav a:hover { color:var(--accent-2); }
+.topbar, .comic-card, .ranking, .shelf, .side-quote { background:var(--surface); }
+.topbar { border-bottom:1px solid var(--line); }
+.brand-mark, .eyebrow, .genre { color:var(--accent); }
+.main-nav a, .footer a { text-decoration:none; }
+.hero em { color:var(--accent); font-style:normal; }
+.blurb, .section-note, .hero-copy > p:not(.eyebrow), .footer p, .ranking small { color:var(--muted); }
+.ranking, .shelf, .side-quote { border:1px solid var(--line); }
+.primary-button { display:inline-block; background:var(--accent); color:#fff; border:0; padding:.8rem 1.2rem; text-decoration:none; cursor:pointer; font-weight:750; }
+.footer { border-top:1px solid var(--line); }

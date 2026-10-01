@@ -1,0 +1,18 @@
+/* Fase 04: contenedor, centrado y columnas. */
+.shell { width: min(100% - 3rem, 1240px); margin-inline: auto; }
+.phase-nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.phase-arrows { display: flex; gap: 1rem; }
+.phase-nav a { margin: 0; }
+.topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+.main-nav { display: flex; align-items: center; gap: 1rem; }
+.main-nav a { margin: 0; }
+.header-actions { display: flex; align-items: center; gap: .6rem; }
+.hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 2rem; }
+.hero-copy { max-width: 36rem; }
+.hero-image { width: 100%; }
+.content-layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; align-items: start; gap: 2.4rem; }
+.catalog-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.3rem; }
+.section-heading, .side-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; }
+.ranking ol { padding-left: 1.4rem; }
+.ranking li { padding: .35rem 0; }
+.footer .shell { display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
